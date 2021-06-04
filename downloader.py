@@ -12,13 +12,10 @@ keyword=input('enter keyword : ')
 n=int(input('how many images ? '))
 url=input('enter url : ')
 size=int(input('enter image size : '))
-
+path=input('enter path to directory to save the images : ')
 
 driver=webdriver.Chrome('E://Old//card//chromedriver.exe')
 driver.get(url)
-
-# provide path to dircetory before running the code
-path='E://Old//cust_data'
 
 i=1
 j=1
