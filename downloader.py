@@ -8,11 +8,12 @@ import urllib.request
 from PIL import Image
 import os
 
-keyword=input('enter keyword : ')
-n=int(input('how many images ? '))
-url=input('enter url : ')
-size=int(input('enter image size : '))
-path=input('enter path to directory to save the images : ')
+keyword = input('enter keyword : ')
+n = int(input('how many images ? '))
+url = input('enter url : ')
+size = int(input('enter image size : '))
+path = input('enter path to directory to save the images : ')
+driver_path = input('enter path to webdriver : ') 
 
 driver=webdriver.Chrome('E://Old//card//chromedriver.exe')
 driver.get(url)
