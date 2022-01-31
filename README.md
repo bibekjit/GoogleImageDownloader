@@ -19,3 +19,5 @@ The program requires selenium==4.1.0
 5. If page takes too much time to load, try increasing `INITIAL_WAIT_TIME`
 6. By default webdriver window remains hidden. To unhide it, set `HEADLESS` to FALSE 
 
+# VIDEO LINK 
+https://drive.google.com/file/d/1sX3pBcOcgo-Ap8feDPDYVxxhz6d9Zc9e/view?usp=sharing
