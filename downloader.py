@@ -10,7 +10,7 @@ IMAGE_RESOLUTION=input("Image Resolution : ")
 NUMBER_OF_IMAGES=int(input("How many? : "))
 
 WAIT=1
-SAVE_DIR=f"{query.replace(" ","_")}"
+SAVE_DIR=f"{query.replace(" ","_")}_{NUMBER_OF_IMAGES}"
 
 def download(query, img_num, save_dir, img_res, wait):
     """
