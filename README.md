@@ -8,7 +8,7 @@ The program requires selenium==4.1.0
 3. Provide the desired resolution of the images (by default medium)
    Press -> "l" for large, "i" for small
    or press enter to proceed with default value
-3. Number of images to download
+3. Enter the number of images to download
 
 # NOTE -
 1. Images downloaded might be less than the provided number. So, it's recommeded to download more than required, to compensate
