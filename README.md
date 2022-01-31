@@ -11,8 +11,10 @@ The program requires selenium==4.1.0
 3. Number of images to download
 
 # NOTE -
-1. Images downloaded might be less than the provided number. This is because some images don't have a source link
-   So, it's recommeded to download more than required, to compensate
+1. Images downloaded might be less than the provided number. So, it's recommeded to download more than required, to compensate
 2. Images will be downloaded in .JPG format as -> 0.jpg, 1.jpg, 2.jpg....so on
 3. A download directory will be created as `<query>_<number of images>` if it doesn't exist
+4. If downloaded resolution is lower than actual one, of an image, try increasing `WAIT_TIME_PER_IMAGE`
+5. If page takes too much time to load, try increasing `INITIAL_WAIT_TIME`
+6. By default webdriver window remains hidden. To unhide it, set `HEADLESS` to FALSE 
 
