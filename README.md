@@ -3,6 +3,7 @@ This program uses Selenium to navigate through google images and downloads them 
 The program requires selenium==4.1.0
 
 # Usage
+1. Clone the repository
 1. Navigate to the repository in command prompt and type `python downloader.py`
 2. Enter query for image search
 3. Provide the desired resolution of the images (by default medium)
