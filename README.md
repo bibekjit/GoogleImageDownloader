@@ -1,6 +1,6 @@
 # Google Image Downloader
 This program uses Selenium to navigate through google images and downloads them on its own.
-The program requires selenium==4.1.0
+
 
 # Usage
 1. Clone the repository
